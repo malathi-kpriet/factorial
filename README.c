@@ -2,7 +2,8 @@
 #include<iostream.h>
 #include<stdio.h>
 int main(){
-  int i=1,f=1,num; printf("Enter a number: ");
+  int i=1,f=1,num;
+  printf("Enter a number: ");
   scanf("%d",&num);
  while(i<=num){
       f=f*i;
